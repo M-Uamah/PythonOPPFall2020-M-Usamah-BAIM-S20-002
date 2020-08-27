@@ -6,7 +6,7 @@ std3 = {"rollno": "BAIM-S20-003", "name": "Mohammad Nisar", "grades": "A+"}
 std4 = {"rollno": "BAIM-S20-004", "name": "Imran", "grades": "B"}
 std5 = {"rollno": "BAIM-S20-005", "name": "Nabila Muaaz", "grades": "A+"}
 std6 = {"rollno": "BAIM-S20-006", "name": "Farah Shahzad", "grades": "A"}
-std7 = {"rollno": "BAIM-S20-007", "name": "Huzaifa Khan", "grades": "B"}
+std7 = {"rollno": "BAIM-S20-007", "name": "Huzaifa Khan", "grades": "B+"}
 
 report = [std1,std2, std3, std4, std5, std6, std7]
 print ("Full Report")
