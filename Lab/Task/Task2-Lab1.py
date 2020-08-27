@@ -1,10 +1,10 @@
 # creating student reports using list and dictonary
 
 std1 = {"rollno": "BAIM-S20-001", "name": "Mohammed Usamah", "grades": "A"}
-std2 = {"rollno": "BAIM-S20-002", "name": "Abdullah Maroof", "grades": "A+"}
+std2 = {"rollno": "BAIM-S20-002", "name": "Abdullah Maroof", "grades": "B"}
 std3 = {"rollno": "BAIM-S20-003", "name": "Mohammad Nisar", "grades": "A+"}
 std4 = {"rollno": "BAIM-S20-004", "name": "Imran", "grades": "B"}
-std5 = {"rollno": "BAIM-S20-005", "name": "Nabila Muaaz", "grades": "A+"}
+std5 = {"rollno": "BAIM-S20-005", "name": "Nabila Muaaz", "grades": "A"}
 std6 = {"rollno": "BAIM-S20-006", "name": "Farah Shahzad", "grades": "A"}
 std7 = {"rollno": "BAIM-S20-007", "name": "Huzaifa Khan", "grades": "B+"}
 
