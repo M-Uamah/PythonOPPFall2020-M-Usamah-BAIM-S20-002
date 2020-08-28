@@ -1,0 +1,16 @@
+#Creating a list of cities in Pakistan
+cities = ['Lahore','Islamabad','Karachi','Faisalabad','Rawalpindi','Okara','Mardan','Mirpur Khas','Kohat','Shikarpur']
+print ('List of cities in Pakistan')
+print (cities)
+print('------------------------------------------------------------')
+print (cities[0])
+print (cities[1])
+print (cities[2])
+print (cities[3])
+print (cities[4])
+print (cities[5])
+print (cities[6])
+print (cities[7])
+print (cities[8])
+print (cities[9])
+print('------------------------------------------------------------')
