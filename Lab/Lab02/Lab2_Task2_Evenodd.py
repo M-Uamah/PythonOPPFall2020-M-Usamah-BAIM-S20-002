@@ -13,12 +13,12 @@ else:
 # taking_a_value = int(input("Enter a value: "))
 lowerLimit = int(input("Enter starting value: "))
 upperLimit = int(input("Enter end value: "))
-for eachnumber in range(lowerLimit,upperLimit+1):
-    modeValue = eachnumber % 2
+for eachNumber in range(lowerLimit,upperLimit+1):
+    modeValue = eachNumber % 2
     if modeValue == 0:
-        print(eachnumber, "is an even")
+        print(eachNumber, "is an even")
     else:
-        print(eachnumber, "is an odd")
+        print(eachNumber, "is an odd")
 
 #Taking the range of number from the user to find even and odd using while loop
 
@@ -37,29 +37,29 @@ while (lowerLimit <= upperLimit):
 #Finding totel number of odd and even in a range using for loop
 lowerLimit = int(input("Enter starting value: "))
 upperLimit = int(input("Enter end value: "))
-evennumber = 0
-oddnumber = 0
-for eachnumber in range (lowerLimit, upperLimit+1):
-    modeValue = eachnumber % 2
+evenNumber = 0
+oddNumber = 0
+for eachNumber in range (lowerLimit, upperLimit+1):
+    modeValue = eachNumber % 2
     if modeValue == 0:
-        evennumber = evennumber + 1
+        evenNumber = evenNumber + 1
     else:
-        oddnumber = oddnumber + 1
-print ("Total number of even number is = ",evennumber)
-print ("Total number of odd number is = ",oddnumber)
+        oddNumber = oddNumber + 1
+print ("Total number of even number is = ",evenNumber)
+print ("Total number of odd number is = ",oddNumber)
 
 # Finding totel number of odd and even in a range using while loop
 lowerLimit = int(input("Enter starting value: "))
 upperLimit = int(input("Enter end value: "))
-evennumber = 0
-oddnumber = 0
+evenNumber = 0
+oddNumber = 0
 while (lowerLimit <= upperLimit):
     modeValue = lowerLimit % 2
     if modeValue== 0:
-        evennumber = evennumber + 1
+        evenNumber = evenNumber + 1
     else:
-        oddnumber = oddnumber + 1
+        oddNumber = oddNumber + 1
 
     lowerLimit = lowerLimit + 1
-print ("Total number of even number is = ",evennumber)
-print ("Total number of odd number is = ",oddnumber)
+print ("Total number of even number is = ",evenNumber)
+print ("Total number of odd number is = ",oddNumber)
