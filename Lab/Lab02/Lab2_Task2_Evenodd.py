@@ -1,8 +1,8 @@
 #Taking number from user and check it is even or odd
 
 enterNumber = int(input("Enter a value: "))
-modevalue = enterNumber % 2
-if modevalue == 0:
+modeValue = enterNumber % 2
+if modeValue == 0:
     print(enterNumber,"is an even value")
 else:
     print(enterNumber,"is a odd value")
@@ -14,8 +14,8 @@ else:
 lowerLimit = int(input("Enter starting value: "))
 upperLimit = int(input("Enter end value: "))
 for eachnumber in range(lowerLimit,upperLimit+1):
-    modevalue = eachnumber % 2
-    if modevalue == 0:
+    modeValue = eachnumber % 2
+    if modeValue == 0:
         print(eachnumber, "is an even")
     else:
         print(eachnumber, "is an odd")
@@ -27,8 +27,8 @@ lowerLimit = int(input("Enter starting value: "))
 upperLimit = int(input("Enter end value: "))
 
 while (lowerLimit <= upperLimit):
-    modevalue = lowerLimit % 2
-    if modevalue == 0:
+    modeValue = lowerLimit % 2
+    if modeValue == 0:
         print(lowerLimit, "is an even")
     else:
         print(lowerLimit, "is an odd")
@@ -40,8 +40,8 @@ upperLimit = int(input("Enter end value: "))
 evennumber = 0
 oddnumber = 0
 for eachnumber in range (lowerLimit, upperLimit+1):
-    modevalue = eachnumber % 2
-    if modevalue == 0:
+    modeValue = eachnumber % 2
+    if modeValue == 0:
         evennumber = evennumber + 1
     else:
         oddnumber = oddnumber + 1
