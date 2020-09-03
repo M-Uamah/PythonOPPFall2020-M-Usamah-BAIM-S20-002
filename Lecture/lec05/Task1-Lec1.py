@@ -15,11 +15,11 @@ elif opp == "*":
     print(num1 * num2)
 
 elif opp == "/":
-    int(num1)
-    int(num2)
-    # print (type(num1))
-    # print(type(num2))
-    print(num1/num2)
+    num3 = int(num1)
+    num4 = int(num2)
+    # print(type(num3))
+    # print(type(num4))
+    print(num3/num4)
     
 else:
     print ("Error...\nEnter a correct operator")
