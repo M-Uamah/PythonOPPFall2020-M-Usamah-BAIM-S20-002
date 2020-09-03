@@ -2,8 +2,8 @@
 
 enterNumber = int(input("Enter a number: "))
 if enterNumber > 1:
-    primeValue = enterNumber % 2
-    if primeValue == 0:
+    primeNumber = enterNumber % 2
+    if primeNumber == 0:
         print(enterNumber, "is not a primer number")
     else:
         print(enterNumber, "is a primer number")
