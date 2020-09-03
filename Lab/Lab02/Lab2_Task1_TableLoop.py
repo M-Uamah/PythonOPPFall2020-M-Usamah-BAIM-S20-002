@@ -14,6 +14,6 @@ print("=======================================================")
 tablenumber = int(input("Enter a number: "))
 upperlimit = int(input("Enter a upper limit: "))
 lowerlimit = int(input("Enter a lower limit: "))
-for i in range(upperlimit, lowerlimit+1):
+for foreachnumber in range(upperlimit, lowerlimit+1):
     print (i,"*",tablenumber,"=",i*tablenumber)
 print("=======================================================")
