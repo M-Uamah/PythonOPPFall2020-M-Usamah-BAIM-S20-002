@@ -1,9 +1,9 @@
 ## Task 01
 # Create two classes university and teacher
 
-print("---------------------------------------------------------------------")
+print("=====================================================================")
 print("                                Task 01                              ")
-print("---------------------------------------------------------------------")
+print("=====================================================================")
 
 class university:
     uniName = ""
@@ -41,3 +41,11 @@ tch.tchAge = 25
 tch.tchSal = 10000
 tch.teacherInformation()
 print("All is good")
+
+
+## Task 02
+# Create 2 lists one list will contain the 5 objects of university class and second list will contain the 5 objects of teacher class.
+
+print("=====================================================================")
+print("                                Task 02                              ")
+print("=====================================================================")
