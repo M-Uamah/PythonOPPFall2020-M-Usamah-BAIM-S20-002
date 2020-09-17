@@ -1,6 +1,10 @@
 ## Task 01
 # Create two classes university and teacher
 
+print("---------------------------------------------------------------------")
+print("                                Task 01                              ")
+print("---------------------------------------------------------------------")
+
 class university:
     uniName = ""
     uniCity = ""
@@ -10,14 +14,30 @@ class university:
         print("--------------------------------------------------------------------")
         print("Name of the University is " + self.uniName)
         print("It is located in " + self.uniCity )
-        print("It was created " + str(self.uniAge) + " old")
+        print("University age = " + str(self.uniAge) + " years")
         print("--------------------------------------------------------------------")
 
-uni1 = university()
-uni1.uniName = "Superior"
-uni1.uniCity = "Lahore"
-uni1.uniAge = 40
-uni1.universityInformation()
+class teacher:
+    tchName = ""
+    tchAge = ""
+    tchSal = ""
 
+    def  teacherInformation(self):
+        print("--------------------------------------------------------------------")
+        print("Name of the teacher is " + self.tchName)
+        print("The age of teacher is " + str(self.tchAge) + " years")
+        print("The salary of teacher is " + str(self.tchSal) + " Riyal")
+        print("--------------------------------------------------------------------")
+
+uni = university()
+uni.uniName = "Superior"
+uni.uniCity = "Lahore"
+uni.uniAge = 40
+uni.universityInformation()
+
+tch = teacher()
+tch.tchName = "Waqas"
+tch.tchAge = 25
+tch.tchSal = 10000
+tch.teacherInformation()
 print("All is good")
-
