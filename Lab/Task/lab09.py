@@ -9,7 +9,7 @@ frame_center = Frame(root, bg = "white")
 frame_bottom = Frame(root, bg ="#243239",height=20)
 
 #creating body frame with color
-frame_center_right = Frame(frame_center,  bg="white")
+frame_center_right = Frame(frame_center,  bg="#D3D3D3")
 frame_center_left = Frame(frame_center,  bg="red", width= 100)
 #creating body frame without color
 # frame_center_right = Frame(frame_center)
